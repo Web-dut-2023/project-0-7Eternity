@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Search Engine</title>
+    <link rel="stylesheet" href="advancestyles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Advanced Search Engine</h1>
+        <a href="index.html">Go to Google Search</a>
+    </header>
+    <main>
+        <form action="https://www.google.com/advanced_search" method="GET">
+            <input type="text" name="as_q" placeholder="All these words">
+            <input type="text" name="as_epq" placeholder="This exact word or phrase">
+            <input type="text" name="as_oq" placeholder="Any of these words">
+            <input type="text" name="as_eq" placeholder="None of these words">
+            <br>
+            <input type="text" name="as_sitesearch" placeholder="Search within a site">
+            <br>
+            <label for="as_filetype">File type:</label>
+            <select name="as_filetype" id="as_filetype">
+                <option value="">Any type</option>
+                <option value="pdf">PDF</option>
+                <option value="doc">Microsoft Word</option>
+                <option value="xls">Microsoft Excel</option>
+            </select>
+            <br>
+            <button type="submit" class="search-button">Advanced Search<tton>
+        </form>
+    </main>
+</body>
+
+</html>
